@@ -30,7 +30,7 @@ public class PriorityQueueTest {
     @Parameters
     public static Collection getTestParameters(){
         return Arrays.asList(new Integer[][] {
-                {4,5,6,8,5,4,8,6},
+                {4,7,6,8,5,4,8,6},
                 {1,2,3,9,2,1,3,9},
                 {0,1,5,8,5,0,8,1},
                 {10,20,30,40,40,20,30,10},
