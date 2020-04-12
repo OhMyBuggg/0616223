@@ -42,7 +42,7 @@ public class PriorityQueueTest {
     public void equal() {
         int i = 0;
         for(;i < 4;){
-            assertEquals(test[i++], expected.poll().intValue(), "not equal");
+            assertEquals(test[i++], expected.poll().intValue());
         }
     }
 
