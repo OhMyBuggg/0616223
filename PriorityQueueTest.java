@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.NoSuchElementException;
 import java.util.PriorityQueue;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
 public class PriorityQueueTest {
